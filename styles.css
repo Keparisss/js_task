@@ -1,0 +1,53 @@
+*{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.string{
+  display: flex;
+  /* width: 50%;
+  margin: 0 auto; */
+}
+#table{
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 5px solid #c4efef;
+}
+.item{
+  display: inline-flex;
+  height: 45px;
+  width: 20%;
+  background-color: azure;
+  align-items: center;
+  padding-left: 10px;
+}
+#editForm{
+  background-color: blueviolet;
+  height: 400px;
+  width: 300px;
+  position: absolute;
+  top: 92px;
+  left: 40px;
+  visibility: hidden;
+  border-radius: 9px;
+}
+.visible{
+  visibility: visible !important;
+  background-color: #c4efef !important;
+}
+input{
+  width: -webkit-fill-available;
+  border-radius: 9px;
+  padding-left: 10px;
+  outline: none;
+}
+.itemForm{
+  border-radius: 9px;
+  padding: 5px;
+}
+.sort:hover{
+background-color:#c4efef; 
+}
+button{
+  border-radius: 9px;
+  outline: none;
+}
