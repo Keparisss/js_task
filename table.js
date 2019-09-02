@@ -1,9 +1,3 @@
-// function load(){
-//   var mydata = JSON.parse(table);
-//   alert(mydata[0].id);
-//   alert(mydata[0].name);
-// }
-
 const data=[
   {
     "id": "5c2286fb23e87be312d55d9a",
@@ -510,7 +504,7 @@ const data=[
   const toplace = document.getElementById('toplace');
   const ArrayForSort=[];
 
-  show(); //запустить один раз
+  show(); //вывод таблицы
 
   //блок сортировки
 
